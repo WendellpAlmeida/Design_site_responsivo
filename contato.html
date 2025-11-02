@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design</title>
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/slick-theme.css">
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/slick.css">
+    <link rel="stylesheet" href="./CSS/fancybox.compactmode.css">
+        <!-- JS -->
+    <script src="./JS/jquery-3.7.1.js" defer></script>
+    <script src="./JS/slick.min.js" defer></script>
+    <script src="./JS/jquery.fancybox.min.js" defer></script>
+    <script src="./JS/script.js" defer></script>
+  </head>
+  <body >
+    <!-- Header -->
+    <header class="header">
+     <div class="container">
+      <a href="index.html" class="logo">Design Texto</a>
+      <nav class="main-menu main-menu--close">
+        <button class="main-principal__btn main-principal__btn-close">Abrir/fechar menu</button>
+        <ul class="main-menu__list">
+          <li><a class="main-menu__item " href="index.html">Home</a></li>
+          <li><a class="main-menu__item " href="sobre.html">Sobre nós</a></li>
+          <li><a class="main-menu__item" href="portfolio.html">Portfolio</a></li>
+          <li><a class="main-menu__item main-menu__item--current" href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+     </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <div class="header-page">
+        <h1 class="header-page__title">Contato</h1>
+      </div>
+      <section class="content-page container contact-page">
+        <p class="text-center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed eius
+          perspiciatis delectus quis commodi reiciendis rem.
+        </p>
+        <form action="#" class="form">
+          <div class="form_group form_grup--left">
+            <label class="form__label" for="name">Nome</label><br />
+            <input  class="form__camp" 
+            id="name" 
+            type="text" 
+            name="nome"
+            placeholder="Digite seu Nome" />
+          </div>
+          <div class="form_group form_grup--right">
+            <label class="form__label" for="email">E-mail</label><br />
+            <input  class="form__camp" 
+            id="email" 
+            type="email" 
+            name="email" 
+            placeholder="Digite seu E-mail" />
+          </div>
+          <div class="form_group ">
+            <label class="form__label" for="message">Mensagem</label><br />
+            <textarea
+              class="form__camp"
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <input class="form__btn" type="submit" value="Enviar" />
+        </form>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet adipisci <br>
+          dolore dolorem iure. Sunt sapiente quibusdam blanditiis, modi
+          exercitationem unde alias!
+        </p>
+      </section>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467690.14376811276!2d-46.92494246204634!3d-23.68206358470526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2sS%C3%A3o%20Paulo%2C%20State%20of%20S%C3%A3o%20Paulo!5e0!3m2!1sen!2sbr!4v1761667704321!5m2!1sen!2sbr"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </main>
+    <!-- Footer -->
+     <footer class="footer">
+      <div class="footer__line-1"> 
+        <div class="container"> <!-- ínicio container -->
+          <div class="footer__column">
+            <a href="index.html" class="logo logo--white">Design texto</a>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
+              alias eum dolorem eveniet atque non provident! Molestiae iure illum
+              sapiente enim quo fugiat? Facere, nesciunt. Velit alias excepturi
+              consequatur non.
+            </p>
+          </div>
+            <!-- Social footer -->
+            <div class="footer__column">
+              <h2 class="footer__title">Social</h2>
+              <ul class="footer__list-link">
+                <li><a class="footer__list-links__item" href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li>
+                  <a class="footer__list-links__item" href="https://facebook.com" target="_blank">Facebook</a>
+                </li>
+                <li>
+                  <a class="footer__list-links__item" href="https://instagram.com" target="_blank">Instagram</a>
+                </li>
+                <li><a class="footer__list-links__item" href="https://tiktok.com" target="_blank">TikTok</a></li>
+              </ul>
+            </div>
+
+            <!-- links - footer -->
+            <div class="footer__column">
+              <h2 class="footer__title">Links</h2>
+              <ul class="footer__list-link">
+                <li><a class="footer__list-links__item" href="index.html">Home</a></li>
+                <li><a class="footer__list-links__item" href="sobre.html">Sobre nós</a></li>
+                <li><a class="footer__list-links__item" href="portfolio.html">Portfolio</a></li>
+                <li><a class="footer__list-links__item" href="contato.html">Contato</a></li>
+              </ul>
+            </div>
+
+        </div> <!-- Fim container -->
+      </div>
+    
+      <div class="footer__line-2">
+        &copy; 2025 - Todos os direitos reservados - Wendell Almeida
+      </div>
+
+    </footer>
+  </body>
+</html>
