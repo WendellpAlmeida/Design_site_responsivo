@@ -1,7 +1,11 @@
 # Design_site_responsivo
 Design de um site completo semântico, responsivo e integrado, utilizando HTML, CSS, JS, JQUERY.
+
 Aplicado JS na data do rodapé, botão Menu abrir e fechar na versão mobile.
+
 Aplicado Jquery para as fotos na seção Portfolio e seção depoimentos. 
+
+Utilização da API do google maps. 
 
 Teste de links: 
 
